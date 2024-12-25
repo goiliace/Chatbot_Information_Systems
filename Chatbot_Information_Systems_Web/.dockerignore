@@ -1,0 +1,6 @@
+.venv
+*.ipynb
+__pycache__
+*.pyc
+postgres-volume
+qdrant_data

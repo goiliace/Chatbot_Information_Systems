@@ -1,0 +1,14 @@
+qdrant_data
+postgres-volume
+__pycache__
+
+.env
+.venv
+
+*.ipynb_checkpoints
+
+*.ipynb
+ChangeLog.md
+redis-data
+translate
+Chapter

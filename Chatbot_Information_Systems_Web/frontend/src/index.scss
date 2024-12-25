@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './custom.antd.scss';
+
+@font-face {
+    font-family: 'font-gilroy';
+    src: url('/fonts/SVN-Gilroy-SemiBold.otf');
+}
+
+.hide_scroll::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    font-family: 'font-gilroy', sans-serif;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--secondary100);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+p {
+    margin: 0;
+}
